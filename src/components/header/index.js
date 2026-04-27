@@ -5,7 +5,7 @@ export const Header = () => {
     return (
         <header style={container}>
             <a style={{display :"flex", justifyContent: "center", width :"100%"}} href="/">
-                <img src={Logo} style={imgstile}/>
+                <img src={Logo} style={imgstile}  alt="logo"/>
             </a>
             <MenuHeader />
         </header>
